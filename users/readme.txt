@@ -1,0 +1,1 @@
+Here is placed all your login account data (not the FTP acount)

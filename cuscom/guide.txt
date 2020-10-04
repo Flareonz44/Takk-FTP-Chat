@@ -1,0 +1,9 @@
+Write your command color in color.cuscom e.g. 'color 0a'
+    0 = Black       8 = Grey
+    1 = Blue        9 = Light-Blue
+    2 = Green       A = Light-Green
+    3 = Cian        B = Light-Cian
+    4 = Red         C = Light-Red
+    5 = Purple      D = Light-Puerple
+    6 = Yellow      E = Light-Yellow
+    7 = White       F = Super-White
