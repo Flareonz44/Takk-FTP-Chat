@@ -10,7 +10,7 @@ cls
 echo ---------------------------------------
 echo ## Loading FTP Credentials... ##
 echo ---------------------------------------
-if exist "uplP32.tak" if exist "dwlP32.tak" if exist "dwlP64.tak" if exist ".\ftp-credentials\host.dat" goto w
+if exist ".\uplP32.tak" if exist ".\dwlP32.tak" if exist ".\dwlP64.tak" if exist ".\ftp-credentials\host.dat" goto w
 :remake_credentials
 echo Write your FTP host below.
 set /p fhost=FTP-Host: 
@@ -50,6 +50,7 @@ echo ## Welcome to Takk chat online! ##
 echo.
 echo Type 'login' to login with an account
 echo Type 'register' to create an account
+echo Type 'reftp' to Update FTP credentials
 echo [Then press enter]
 echo.
 echo ---------------------------------------
@@ -58,6 +59,7 @@ set /p option=^>
 if "%option%"=="exit" exit
 if "%option%"=="login" goto login
 if "%option%"=="register" goto register
+if "%option%"=="reftp" goto remake_credentials
 goto main
 
 :register
