@@ -1,8 +1,8 @@
 # Takk-FTP-Chat
 A simple command-prompt based chat online written in batch
-# --NOTES
+## Notes
 You must have your FTP access credentials to chat. Here are some notes of what you have to complete:
-# FTP-HOST:
+### FTP-HOST:
 Here put the host to connect (e.g. ftp.goole.com)(don't use that because it doesn't exist)
 # FTP-USER:
 Here write your ftp account user
